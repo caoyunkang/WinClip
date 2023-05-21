@@ -30,6 +30,9 @@ If you find the code useful, please consider citing our paper using the followin
 }
 ```
 
+## Related Repo
+
+- [Segment Any Anomaly](https://github.com/caoyunkang/Segment-Any-Anomaly) 
 
 ## Prerequisite
 * Python 3.7, PyTorch 1.10, and more in install.sh
@@ -92,3 +95,6 @@ python run_winclip.py
 | pcb4       | 79.60    | 94.40   | 74.90    | 32.00    | 78.94             | 91.86   | 74.56    | 22.75    |
 | pipe_fryum | 69.70    | 75.40   | 80.70    | 12.30    | 82.80             | 93.65   | 83.48    | 22.45    |
 | Average    | 78.06    | 79.59   | 78.99    | 14.82    | 64.26             | 70.01   | 74.23    | 9.50     |
+
+## Acknowledgements
+This project borrows some code from [OpenCLip](https://github.com/mlfoundations/open_clip) and [CDO](https://github.com/caoyunkang/CDO), thanks for their admiring contributions~!
