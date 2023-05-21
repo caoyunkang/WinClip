@@ -43,7 +43,7 @@ def test(model,
 
     for (data, mask, label, name, img_type) in dataloader:
 
-        data = [model.transform(Image.fromarray(cv2.cvtColor(f.numpy(), cv2.COLOR_BGR2RGB))) for f in data]
+        data = [model.transform(Image.fromarray(f.numpy())) for f in data]
         data = torch.stack(data, dim=0)
 
         for d, n, l, m in zip(data, name, label, mask):
